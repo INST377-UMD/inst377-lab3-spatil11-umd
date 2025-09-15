@@ -1,0 +1,86 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-footer {
+  background-color: hotpink;
+  color: lime;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: gold;
+  margin: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+  padding: 6px 12px;
+  transition: background 0.3s;
+}
+
+.nav-list li a:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.main-content {
+  background-color: aquamarine;
+  padding: 20px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.sidebar {
+  background-color: plum;
+  padding: 20px;
+  width: 30%;
+  transition: background-color 0.3s;
+}
+
+.sidebar:hover {
+  background-color: crimson;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"] {
+  width: 200px;
+  transition: width 0.3s;
+}
+
+input[type="text"]:focus {
+  width: 300px;
+}
+
+button {
+  background-color: teal;
+  color: yellow;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
